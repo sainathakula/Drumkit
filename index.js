@@ -5,8 +5,8 @@ for(var i=0;i<(document.querySelectorAll(".drum").length);i++)
     function()
     {                               //for choosing the correct sound from screen input(button press)
     var exp=this.innerHTML;
-    sounds(exp);
-    animate(exp);
+    sounds(exp);   //calling the sounds function to play sound
+    animate(exp);  // to add and delete the class to the class list
     });
 }
 
